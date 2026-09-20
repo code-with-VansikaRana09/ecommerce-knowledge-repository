@@ -1,0 +1,10 @@
+{
+    "domain": "E-Commerce Order Management",
+    "category": "Order Rules",
+    "rules": [
+        "Order can be confirmed when payment is successful and stock is sufficient.",
+        "Order is rejected when sufficient stock is unavailable.",
+        "Order remains pending when payment is unsuccessful.",
+        "Order can be shipped after successful order confirmation."
+    ]
+}
